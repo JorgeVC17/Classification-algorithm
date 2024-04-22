@@ -1,5 +1,15 @@
+#  Classification algorithm
+
+Supervised learning is when an algorithm learns patterns from labeled data. Training the algorithm is done with inputs (predictors) that are associated with the correct output (targets). The algorithm can then be used to classify new observations.
+
+We can distinguish between regression (predicting a number) and classification (predicting a category, or class). 
+
+The goal of classification is to accurately predict the target class for each case in the data. For example, a classification algorithm will learn from a dataset where the emails are labeled as "spam" or "not spam", and then classify a new email into one of those categories.
+
+For this project we use a dataset with general information of different subjects to train different models that use classification algorithms to identify if a subject have diabetes or not.
+
 # Metadata
-De dataset consists of the following metadata:
+THe dataset consists of the following metadata:
 
 - Diabetes_012: Three categories indicating the diabetes status: 0 for no diabetes, 1 for pre-diabetes, and 2 for diabetes.
 
@@ -40,6 +50,26 @@ De dataset consists of the following metadata:
 - Sex: Gender of the person, where 0 represents female and 1 represents male.
 
 - Age: Age of the person.
+
+## Requirements
+
+The requirements to run this project are:
+
+- matplotlib==3.8.1
+- numpy==1.26.4
+- pandas==2.2.2
+- plotly==5.18.0
+- scikit_learn==1.3.2
+- seaborn==0.13.2
+
+## Authors
+
+- [@JorgeVC17](https://github.com/JorgeVC17)
+
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
 
 - Education: Level of education, on a scale of 1 to 6.
 
